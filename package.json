@@ -1,0 +1,21 @@
+{
+    "name": "node-clima",
+    "version": "1.0.0",
+    "description": "CLI que mostra o clima de uma cidade em tempo real",
+    "preferGlobal": true,
+    "bin": {
+        "clima": "./bin/clima"
+    },
+    "files": [
+        "bin",
+        "src"
+    ],
+    "keywords": [],
+    "author": "Lucas Dantas da Cruz",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^9.4.0",
+        "esm": "^3.2.25",
+        "node-fetch": "^3.2.9"
+    }
+}
